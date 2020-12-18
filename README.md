@@ -1,5 +1,5 @@
 # Heatsink_Temperature_Reading
-A project to read temperature of a heatsink by 5 thermocouples and 3D visualize them on the computer
+A project to read temperature of a heatsink by 5 thermocouples and 3D visualize them on the computer.
 
 The PCB design was made completely on Eagle. 
 Custom packages for the AD8495 where created to make the board. The board was designed as a shield for the STM32 Nucleo F411RE and also compatible with Arduino boards. 
