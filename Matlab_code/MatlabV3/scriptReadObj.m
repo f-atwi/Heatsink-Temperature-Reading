@@ -1,0 +1,1 @@
+a  = readObj('heatsink.obj');
