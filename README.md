@@ -4,6 +4,7 @@ A project to read temperature of a heatsink by 5 thermocouples and 3D visualize 
 The PCB design was made completely on Eagle. 
 Custom packages for the AD8495 where created to make the board. The board was designed as a shield for the STM32 Nucleo F411RE and also compatible with Arduino boards. 
 PDFs of the schematic and board as well as the PCB project files can be found.
+The ciruit was designed to be powered completely by the Nucleo board. No external connections required.
 
 The code for the STM32 Nucleo F411RE board was written on the STM32Cube IDE. 
 The code initialized an ADC to read data from the designed shield, a DMA to transfer data from ADC to memory, and a UART to tranfer data to the PC.
